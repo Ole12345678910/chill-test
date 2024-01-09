@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.headerbox{
+    background-color: slategray;
+    width: auto;
+    height: 40px;
+    
+}
+
+body{
+    background-color: grey;
+}
+
+.nav li ul{
+    margin: 1rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+}
+
+.footerbox{
+    background-color: slategray;
+    width: auto;
+    height: 40px;
+}
+
+[class^="box"] {
+    background-color: rgba(29, 14, 14, 0.473); 
+    height: 300px;
+    width: auto;
+}
+
+.containerbox{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0.5rem;
+}
+
+.box1{
+    grid-column: 1/5;
+
+}
+
+.box4{
+    grid-column: 1/5;
+    grid-row: 3;
+}
