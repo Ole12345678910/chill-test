@@ -22,9 +22,18 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
-    background-color: grey;
+/* note this just placeholder to make it look nice*/
+#emptyList{
+    color: wheat;
+    padding: 1rem;
+    text-decoration: none;
+    list-style-type: none;
+    line-height: 1.5rem;
 }
+
+/*body{
+    background-color: grey;
+}*/
 
 .footerbox{
     display: flex;
