@@ -74,13 +74,6 @@ if (inputName === "" || inputName === null) {
 }
 */
 
-var fruit = "pear";
-
-switch(fruit){
-    case "An apple a day.."
-
-}
-
 /*
 var number = prompt("please enter a number");
 var test = Number(number);
@@ -90,4 +83,6 @@ if (isNaN(test)){
 } else {
     console.log (number + " is indeed a number: Valdi number entered");
 }*/
+
+
 

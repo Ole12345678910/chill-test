@@ -81,3 +81,31 @@
     grid-row: 2;
     background-color: rgb(58, 32, 0);
 }
+body{
+    background-color: grey;
+}
+
+#countLabel{
+    display: block;
+    text-align: center;
+    font-size: 10rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#btnContainer{
+    text-align: center; 
+}
+
+.buttons{
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    color: wheat;
+    background: teal;
+    border: 2px solid;
+    cursor: pointer;
+    transition: background-color 0.25;
+}
+
+.buttons:hover{
+    background-color: rgb(1, 116, 116);
+}
